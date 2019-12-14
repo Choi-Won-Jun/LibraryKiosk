@@ -27,6 +27,28 @@ namespace LibraryKiosk
 
         }
 
+
+        // [경희대학생 로그인] 클릭 시
+        private void KHU_Register_Click(object sender, RoutedEventArgs e)
+        {
+            // 새창 띄우기
+            // Window win2 = new Window();
+            // win2.Show();
+
+            Page page = new Page();
+            page.Title = "testPage";
+            this.Content = page;
+
+        }
+
+        // [비회원으로 로그인] 클릭 시
+        private void FP_Register_Click(object sender, RoutedEventArgs e)
+        {
+            Page page = new Page();
+            page.Title = "testPage";
+            this.Content = page;
+        }
+
         /*
         private void btnLoad_Click(object sender, RoutedEventArgs e)
         {

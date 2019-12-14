@@ -15,3 +15,4 @@ C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\Lib
 C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\LibraryKiosk.AssemblyInfo.cs
 C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\LibraryKiosk.dll
 C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\LibraryKiosk.pdb
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\App.baml

@@ -10,11 +10,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resource\fbFamous.ttf" />
+    <None Remove="Resource\fingerprint.png" />
     <None Remove="Resource\KyungHee.png" />
+    <None Remove="Resource\verDena.ttf" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resource\fbFamous.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resource\fingerprint.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Resource\KyungHee.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resource\verDena.ttf">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>

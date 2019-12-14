@@ -4,6 +4,13 @@
              xmlns:local="clr-namespace:LibraryKiosk"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-     <!--   <BitmapImage x:Key="KyungHeeSrc"  UriSource="/KyungHee.png" /> !-->
+        <Style x:Key="verDena">
+            <Setter Property="TextElement.FontFamily" Value="pack://application:,,,/Resource/verDena.ttf #Verdana Bold"/>
+        </Style>
+
+        <Style x:Key="fbFamous">
+            <Setter Property="TextElement.FontFamily" Value="pack://application:,,,/Resource/fbFamous.ttf #FBBest"/>
+        </Style>
+
     </Application.Resources>
 </Application>
