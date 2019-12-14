@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\bin\Debug\netcoreapp3.1\LibraryKiosk.exe
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\bin\Debug\netcoreapp3.1\LibraryKiosk.deps.json
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\bin\Debug\netcoreapp3.1\LibraryKiosk.runtimeconfig.json
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\bin\Debug\netcoreapp3.1\LibraryKiosk.runtimeconfig.dev.json
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\bin\Debug\netcoreapp3.1\LibraryKiosk.dll
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\bin\Debug\netcoreapp3.1\LibraryKiosk.pdb
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\LibraryKiosk.csprojAssemblyReference.cache
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\LibraryKiosk_MarkupCompile.cache
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\LibraryKiosk_MarkupCompile.lref
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\LibraryKiosk.g.resources
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\LibraryKiosk.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\LibraryKiosk.AssemblyInfo.cs
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\LibraryKiosk.dll
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\LibraryKiosk.pdb
