@@ -1,0 +1,14 @@
+﻿<Page x:Class="LibraryKiosk.FPLoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LibraryKiosk"
+      mc:Ignorable="d" 
+      Height="450" Width="800"
+      Title="FPLoginPage">
+
+    <Grid Background="WhiteSmoke">
+        <TextBlock Text="비회원 로그인 페이지"></TextBlock>
+    </Grid>
+</Page>

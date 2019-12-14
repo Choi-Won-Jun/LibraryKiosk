@@ -1,0 +1,45 @@
+﻿<Page x:Class="LibraryKiosk.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LibraryKiosk"
+      mc:Ignorable="d" 
+      Height="450" Width="800"
+      Title="MainPage">
+
+    <Grid Background="WhiteSmoke">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="13*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="80*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Name="Intro" VerticalAlignment="Top" HorizontalAlignment="Left" Height="50" Width="Auto" Text="경희대학교 도서관 좌석예약 시스템" FontSize="20" Style="{StaticResource verDena}" Margin="121,0,0,0" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="1"/>
+
+        <Button Grid.Column="1"  Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Background="Transparent" BorderThickness="0" Name="btn_KHU_Register" Click="KHU_Register_Click">
+            <ContentControl>
+                <StackPanel Orientation="Vertical" Width="Auto" HorizontalAlignment="Left">
+                    <Image Source="pack://application:,,,/Resource/KyungHee.png" Width="200" Height="150" />
+                    <TextBlock Text="[경희대학생 로그인]" VerticalAlignment="Center" HorizontalAlignment="Center" Height="50" Width="Auto" FontSize="25" Style="{StaticResource verDena}"/>
+                </StackPanel>
+            </ContentControl>
+        </Button>
+
+        <Button Grid.Column="3" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Background="Transparent" BorderThickness="0" Name="btn_FP_Register" Click="FP_Register_Click">
+            <ContentControl>
+                <StackPanel Orientation="Vertical" Width="Auto" HorizontalAlignment="Left">
+                    <Image Source="pack://application:,,,/Resource/fingerprint.png" Width="200" Height="150" />
+                    <TextBlock Text="[비회원으로 로그인]" VerticalAlignment="Center" HorizontalAlignment="Center" Height="50" Width="Auto" FontSize="25" Style="{StaticResource verDena}"/>
+                </StackPanel>
+            </ContentControl>
+        </Button>
+    </Grid>
+</Page>

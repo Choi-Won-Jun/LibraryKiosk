@@ -16,3 +16,9 @@ C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\Lib
 C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\LibraryKiosk.dll
 C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\LibraryKiosk.pdb
 C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\MemberLoginPage.g.cs
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\MemberLoginPage.baml
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\FPLoginPage.g.cs
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\FPLoginPage.baml
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\MainPage.g.cs
+C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\obj\Debug\netcoreapp3.1\MainPage.baml
