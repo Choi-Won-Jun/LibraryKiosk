@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 C:\Users\user\source\repos\LibraryKiosk\LibraryKiosk\App.xaml
-42078581836
+6427823159
 
-7-1265269127
+9-2050411132
 1921654412462
-FPLoginPage.xaml;MainPage.xaml;MainWindow.xaml;MemberLoginPage.xaml;
+FinishedPage.xaml;FPLoginPage.xaml;MainPage.xaml;MainWindow.xaml;MemberLoginPage.xaml;SeatReservationPage.xaml;
 
-True
+False
 

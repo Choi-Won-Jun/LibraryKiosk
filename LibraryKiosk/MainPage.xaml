@@ -22,8 +22,12 @@
             <RowDefinition Height="80*"/>
         </Grid.RowDefinitions>
 
+        
+        <!-- 제목 !-->
         <TextBlock Name="Intro" VerticalAlignment="Top" HorizontalAlignment="Left" Height="50" Width="Auto" Text="경희대학교 도서관 좌석예약 시스템" FontSize="20" Style="{StaticResource verDena}" Margin="121,0,0,0" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="1"/>
 
+
+        <!-- 1. 경희대학생 로그인 !-->
         <Button Grid.Column="1"  Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Background="Transparent" BorderThickness="0" Name="btn_KHU_Register" Click="KHU_Register_Click">
             <ContentControl>
                 <StackPanel Orientation="Vertical" Width="Auto" HorizontalAlignment="Left">
@@ -33,6 +37,8 @@
             </ContentControl>
         </Button>
 
+
+        <!-- 2. 비회원 로그인 ( 지문으로 로그인 ) !-->
         <Button Grid.Column="3" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Background="Transparent" BorderThickness="0" Name="btn_FP_Register" Click="FP_Register_Click">
             <ContentControl>
                 <StackPanel Orientation="Vertical" Width="Auto" HorizontalAlignment="Left">

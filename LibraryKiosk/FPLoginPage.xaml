@@ -8,7 +8,38 @@
       Height="450" Width="800"
       Title="FPLoginPage">
 
+
     <Grid Background="WhiteSmoke">
-        <TextBlock Text="비회원 로그인 페이지"></TextBlock>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="33*"/>
+            <ColumnDefinition Width="33*"/>
+            <ColumnDefinition Width="33*"/>
+        </Grid.ColumnDefinitions>
+
+
+        
+        <!-- 돌아가기 버튼-->
+        <Button Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="Transparent" BorderThickness="1" Click="BackToMain">
+            <ContentControl>
+                <StackPanel Orientation="Horizontal" Width="Auto" HorizontalAlignment="Left">
+                    <Image Source="pack://application:,,,/Resource/KyungHee.png" Width="40" Height="35" />
+                    <TextBlock Text="돌아가기  " VerticalAlignment="Center" HorizontalAlignment="Center" Height="20" Width="Auto" FontSize="15" Style="{StaticResource verDena}"/>
+                </StackPanel>
+            </ContentControl>
+        </Button>
+
+
+        <Button Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Background="Transparent" BorderThickness="0" Name="btn_FP_Register" Click="GotoSRP_Click">
+            <ContentControl>
+                <StackPanel Orientation="Vertical" Width="Auto" HorizontalAlignment="Left">
+                    <Image Source="pack://application:,,,/Resource/fingerprint.png" Width="200" Height="150" />
+                </StackPanel>
+            </ContentControl>
+        </Button>
+
+        <TextBlock Name="FPText" Text="지문을 입력해주세요." HorizontalAlignment="Left" Height="50" Width="Auto" FontSize="25" Style="{StaticResource verDena}" Margin="256,370,0,30" RenderTransformOrigin="0.545,0.604" Grid.ColumnSpan="2" />
+
     </Grid>
+
 </Page>

@@ -12,5 +12,24 @@
             <Setter Property="TextElement.FontFamily" Value="pack://application:,,,/Resource/fbFamous.ttf #FBBest"/>
         </Style>
 
+        <!-- 원 모양 버튼 -->
+        <Style x:Key="ButtonRoundedCorner" TargetType="Button">
+            <Setter Property="Background" Value="Yellow"/>
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="TextElement.FontFamily" Value="pack://application:,,,/Resource/verDena.ttf #Verdana Bold"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="25" Background="{TemplateBinding Background}" BorderThickness="2">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+                            </ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
     </Application.Resources>
 </Application>

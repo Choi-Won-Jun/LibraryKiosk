@@ -13,6 +13,7 @@
     <None Remove="Resource\fbFamous.ttf" />
     <None Remove="Resource\fingerprint.png" />
     <None Remove="Resource\KyungHee.png" />
+    <None Remove="Resource\SRP_Available.png" />
     <None Remove="Resource\verDena.ttf" />
   </ItemGroup>
 
@@ -24,6 +25,9 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resource\KyungHee.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resource\SRP_Available.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resource\verDena.ttf">

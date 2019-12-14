@@ -35,5 +35,6 @@ namespace LibraryKiosk
             NavigationService.Navigate(new Uri("FPLoginPage.xaml", UriKind.Relative));
         }
 
+
     }
 }

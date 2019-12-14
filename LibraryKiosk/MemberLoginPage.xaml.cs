@@ -27,5 +27,21 @@ namespace LibraryKiosk
         {
             NavigationService.Navigate(new Uri("MainPage.xaml", UriKind.Relative));
         }
+
+        private void Submit(object sender, RoutedEventArgs e)
+        {
+
+            // 로그인 성공 여부를 담는 변수
+            bool InfoValid = false;
+
+            // If Login Failed.
+            // Back-End 로직 필요 ( DB 접근 or 파일 입출력 )
+            
+
+            if (!InfoValid)
+                NavigationService.Navigate(new Uri("SeatReservationPage.xaml", UriKind.Relative));  // 좌석 예약 페이지로 이동
+            else
+                LoginFailedLabel.Visibility = Visibility.Visible;   // 로그인 실패 메시지 띄움.
+        }
     }
 }

@@ -28,7 +28,8 @@ namespace LibraryKiosk
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            // 프로그램 실행 시 동작할 논리
+            // 프로그램 실행 시 동작할 논리, 딱히 프론트 작업 때, 필요한 것은 없었음.
+            // DB 연결이나, 파일 로드 하는 작업이 들어갈 수 있을 듯? 안써도 상관 X
         }
 
     }

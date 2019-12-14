@@ -8,8 +8,36 @@
       Height="450" Width="800"
       Title="MemberLoginPage">
 
-    <Grid Background="WhiteSmoke" >
-        <TextBlock Text="멤버 로그인 페이지" HorizontalAlignment="Left"></TextBlock>
-        <Button Click="BackToMain" Width="288" FontSize="30" HorizontalAlignment="Center" Height="102" VerticalAlignment="Top">돌아가기</Button>
+    <Grid Background="WhiteSmoke">
+
+        <!-- Back Button -->
+
+        <Button Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="Transparent" BorderThickness="1" Click="BackToMain">
+            <ContentControl>
+                <StackPanel Orientation="Horizontal" Width="Auto" HorizontalAlignment="Left">
+                    <Image Source="pack://application:,,,/Resource/KyungHee.png" Width="40" Height="35" />
+                    <TextBlock Text="돌아가기  " VerticalAlignment="Center" HorizontalAlignment="Center" Height="20" Width="Auto" FontSize="15" Style="{StaticResource verDena}"/>
+                </StackPanel>
+            </ContentControl>
+        </Button>
+
+
+        <Image Source="pack://application:,,,/Resource/KyungHee.png"  Width="200" Height="150" Margin="116,169,484,131" />
+        <TextBlock Text="[경희대학생 로그인]" Margin="149,312,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="20" Width="Auto" FontSize="15" Style="{StaticResource verDena}" />
+
+
+        <!-- User Login Form -->
+        
+        <Label Content="ID" Width="50" Height="50" FontSize="28" Margin="316,201,434,219" Style="{StaticResource fbFamous}"/>
+        <TextBox Name="MyTextBox" Height="50"  Margin="359,194,150,206" FontSize="40" Style="{StaticResource fbFamous}"/>
+        <Label Content="PW" Width="50" Height="50" FontSize="28" Margin="316,251,434,149" Style="{StaticResource ResourceKey=fbFamous}"/>
+        <PasswordBox Name="MyTextBox2" Height="50" FontSize="40" Style="{StaticResource fbFamous}" Margin="359,249,150,151"/>
+        <Button Background="Transparent" BorderThickness="1" FontSize="30" Click="Submit" Style="{StaticResource verDena}" Width="100" Height="100" Margin="655,196,45,154">로그인</Button>
+
+
+        <!-- 로그인 실패 시, 폼 아래에 표시될 텍스트 !-->
+        
+        <Label Visibility="Hidden" Name="LoginFailedLabel" Foreground="Red" Content="로그인에 실패하였습니다! 다시 로그인 해주세요." Height="50" FontSize="22" Margin="353,306,57,94" Style="{StaticResource ResourceKey=fbFamous}"/>
+
     </Grid>
 </Page>

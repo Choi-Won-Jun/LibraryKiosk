@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="FinishedPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="FPLoginPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -16,8 +19,14 @@
     <Compile Update="MemberLoginPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="SeatReservationPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="FinishedPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="FPLoginPage.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -28,6 +37,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MemberLoginPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SeatReservationPage.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
